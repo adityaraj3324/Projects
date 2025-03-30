@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#d2{
+    background-color: aqua;
+
+}
+#d1{
+    height:300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* flex-wrap:wrap; */
+    align-items:start;
+    /* align-content: start; */
+}
+    
+#d3{
+    background-color: pink;
+    height: 150px;
+    flex-shrink: 2;
+}
+#d4{
+    background-color:chocolate;
+    height: 50px;
+}
+#d5{
+    background-color:brown;
+}
+#d6{
+    background-color:blueviolet;
+}

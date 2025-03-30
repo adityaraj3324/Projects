@@ -1,0 +1,23 @@
+div{
+    background-color: black;
+    height: 60px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 200px;
+}
+#a1{
+    color:#f08804;
+    font-size: 25px;
+    text-decoration: none;;
+}
+button{
+    background-color: #f08804;
+}
+select{
+    background-color: black;
+    color:white;
+    margin-right: 200px;
+    border: none;
+}

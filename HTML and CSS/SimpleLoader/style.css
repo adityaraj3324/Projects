@@ -1,0 +1,39 @@
+#d0{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#d1{
+    position:absolute;
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid #242423;
+    border-top: 10px solid #F5CB5C;
+    /* transition-property: all;
+    transition-duration: 4s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.5s;
+    transform: rotate(0,360deg); */
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-timing-function:ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes anime {
+    0%{ 
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(250deg);
+        border-right: 10px solid #F5CB5C;
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

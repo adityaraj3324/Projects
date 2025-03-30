@@ -1,0 +1,32 @@
+a{
+    text-decoration: none;
+    color: black;   
+}
+
+li{
+    list-style-type: none;
+    /* background-color: cadetblue; */
+}
+ul{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+.d1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.d2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+    border: 2px solid black;
+    background-color: brown;
+}
